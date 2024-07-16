@@ -1,4 +1,5 @@
 import { Box, BoxProps, useMultiStyleConfig } from '@chakra-ui/react';
+import React from 'react';
 
 interface Props extends BoxProps {
   variant?: 'primary' | 'rocky';

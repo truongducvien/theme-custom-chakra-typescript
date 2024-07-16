@@ -1,7 +1,4 @@
-import {
-  ComponentMultiStyleConfig,
-  StyleFunctionProps,
-} from '@chakra-ui/react';
+import { ComponentMultiStyleConfig, StyleFunctionProps } from '@chakra-ui/react';
 
 const Input: ComponentMultiStyleConfig = {
   baseStyle: {

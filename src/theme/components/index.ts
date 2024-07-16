@@ -1,8 +1,9 @@
 import { ChakraTheme } from '@chakra-ui/react';
-import Button from './Button';
+
 import Badge from './Badge';
-import Input from './Input';
+import Button from './Button';
 import CustomWrapper from './CustomWrapper';
+import Input from './Input';
 import Text from './Text';
 
 const components: ChakraTheme['components'] = {

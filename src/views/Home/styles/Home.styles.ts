@@ -1,4 +1,5 @@
 import { FlexProps } from '@chakra-ui/react';
+
 import { default as titanBetHomeStyles } from './Home.styles.titanbet';
 
 export type THomeSchema = Partial<{
@@ -7,8 +8,8 @@ export type THomeSchema = Partial<{
 }>;
 
 const homeStyles: THomeSchema = {
-  wrapper: titanBetHomeStyles.wrapper || {},
-  container: titanBetHomeStyles.container || {},
+  wrapper: titanBetHomeStyles.wrapper ?? {},
+  container: titanBetHomeStyles.container ?? {},
 };
 
 export { homeStyles };
